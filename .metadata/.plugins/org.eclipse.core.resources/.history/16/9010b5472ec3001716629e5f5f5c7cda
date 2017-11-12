@@ -1,0 +1,24 @@
+package com.liriopf.calculator.kataStringCalculator;
+
+public class StringCalculator {
+
+	public int add(String value) {
+		int result = 0;
+		if(value.trim().length()>0) {
+			result = Integer.valueOf(value);
+		}
+		return result;
+	}
+
+	public int add(String value1, String value2) {
+		int result = 0;
+		if(value1.trim().length()>0) {
+			result = Integer.valueOf(value1);
+		}
+		if(value2.trim().length()>0) {
+			result = result + Integer.valueOf(value2);
+		}
+		return null;
+	}
+
+}

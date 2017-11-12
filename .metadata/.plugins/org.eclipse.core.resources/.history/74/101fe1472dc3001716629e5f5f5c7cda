@@ -1,0 +1,16 @@
+package com.liriopf.calculator.kataStringCalculator;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class StringCalculatorTest {
+	
+	@Test
+	public void addAnEmptyString() {
+		StringCalculator calculator = new StringCalculator();
+		assertEquals(0, calculator.add(""));
+	}
+
+}

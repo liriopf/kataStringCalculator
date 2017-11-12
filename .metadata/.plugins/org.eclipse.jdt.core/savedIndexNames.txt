@@ -1,0 +1,9 @@
+INDEX VERSION 1.130+D:\Maria\Eclipse_Oxigen_Workspace\.metadata\.plugins\org.eclipse.jdt.core
+3086052857.index
+3744016577.index
+1120186795.index
+2170919575.index
+2856062116.index
+3173380367.index
+2546113443.index
+378132529.index

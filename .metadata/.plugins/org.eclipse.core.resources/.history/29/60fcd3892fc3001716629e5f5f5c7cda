@@ -1,0 +1,20 @@
+package com.liriopf.calculator.kataStringCalculator;
+
+public class StringCalculator {
+
+	public int add(String values) {
+		int result = 0;
+		for(String value:values.split(",")) {
+			result = result + convertToInt(value);
+		}
+		return result;
+	}
+
+	private int convertToInt(String value) {
+		if(value.trim().length()>0) {
+			return Integer.valueOf(value);
+		}
+		return 0;
+	}
+
+}

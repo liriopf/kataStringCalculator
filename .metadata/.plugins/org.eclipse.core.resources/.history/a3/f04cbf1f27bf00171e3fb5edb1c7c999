@@ -1,0 +1,12 @@
+package com.liriopf.tdd.tddDouble;
+
+import org.junit.Test;
+
+public class RaceResultsServiceTest {
+	
+	@Test
+	public void subscribedClientShouldReceiveMessage() {
+		RaceResultsService reaceResult = new RaceResultsService();
+	}
+
+}
